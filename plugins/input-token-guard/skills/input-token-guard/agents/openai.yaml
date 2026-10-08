@@ -1,0 +1,4 @@
+interface:
+  display_name: Input Token Guard
+  short_description: Prevent oversized Codex context
+  default_prompt: Diagnose an input token overflow and prepare a compact recovery plan.

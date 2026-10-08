@@ -1,0 +1,20 @@
+{
+  "name": "xuanyi-plugins",
+  "interface": {
+    "displayName": "玄易插件商店"
+  },
+  "plugins": [
+    {
+      "name": "input-token-guard",
+      "source": {
+        "source": "local",
+        "path": "./plugins/input-token-guard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

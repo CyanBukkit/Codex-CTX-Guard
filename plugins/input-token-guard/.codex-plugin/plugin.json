@@ -1,0 +1,38 @@
+{
+  "name": "input-token-guard",
+  "version": "1.0.0",
+  "description": "Diagnose and prevent Codex input token overflow with conservative estimates and safe text chunking.",
+  "author": {
+    "name": "CyanBukkit",
+    "url": "https://github.com/CyanBukkit"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Input Token Guard",
+    "shortDescription": "Prevent oversized Codex context",
+    "longDescription": "Estimate local text inputs, identify context overflow risk, and split large logs or documents into safe chunks before sending them to Codex.",
+    "developerName": "CyanBukkit",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/CyanBukkit/Codex-CTX-Guard",
+    "defaultPrompt": [
+      "Diagnose this Codex input token overflow error.",
+      "Estimate whether these files fit my context budget.",
+      "Split this large log into safe chunks."
+    ],
+    "brandColor": "#F97316"
+  },
+  "homepage": "https://github.com/CyanBukkit/Codex-CTX-Guard",
+  "repository": "https://github.com/CyanBukkit/Codex-CTX-Guard",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "context",
+    "tokens",
+    "chunking",
+    "debugging"
+  ]
+}
